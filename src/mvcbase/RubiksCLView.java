@@ -240,6 +240,7 @@ public class RubiksCLView extends JFrame
 			JOptionPane.showConfirmDialog(this, this.model.getSolution(), 
 					"Solution", JOptionPane.DEFAULT_OPTION, 
 					JOptionPane.INFORMATION_MESSAGE);
+			System.out.println(this.model.getSolution());
 		}
 	}
 }

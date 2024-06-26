@@ -196,7 +196,6 @@ public class RubiksSolverModel extends Publisher
 
 	public void doSolution()
 	{
-		// TODO get the solution from the rubiks cube
 		System.out.println("doing solution");
 		this.solution = this.manipulator.getSolutionString();
 		File f = new File("C:\\Users\\Cathal\\Documents\\solution");
@@ -225,7 +224,6 @@ public class RubiksSolverModel extends Publisher
 
 	public void doSolve() throws Exception
 	{
-		// TODO implement this method properly with rc.
 //		Random generator = new Random();
 //		int canSolve = generator.nextInt(2);
 //		if (canSolve == 0)

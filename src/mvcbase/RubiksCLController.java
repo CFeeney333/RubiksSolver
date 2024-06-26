@@ -31,7 +31,6 @@ public class RubiksCLController
 		} 
 		catch (ParserConfigurationException e)
 		{
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		this.view.clearTextField();
@@ -67,7 +66,6 @@ public class RubiksCLController
 					this.model.doSolve();
 				} catch (Exception e)
 				{
-					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
 				break;
